@@ -1,0 +1,33 @@
+version: "3.7"
+services:
+    weblonghoa:
+      platform: linux/amd64
+      image: longhoa-env
+      container_name: weblonghoa
+      restart: always
+      user: root
+      environment:
+        - WEB_ALIAS_DOMAIN=local.chualonghoa.vn
+        - WEB_DOCUMENT_ROOT=/app
+        - PHP_DATE_TIMEZONE=UTC
+        - PHP_DISPLAY_ERRORS=1
+        - PHP_MEMORY_LIMIT=2048M
+        - PHP_MAX_EXECUTION_TIME=180000
+        - PHP_POST_MAX_SIZE=500M
+        - PHP_UPLOAD_MAX_FILESIZE=1024M
+        - PHP_DEBUGGER=1
+        - XDEBUG_MODE=debug
+        - XDEBUG_CLIENT_PORT=9003
+        - XDEBUG_DISCOVER_CLIENT_HOST=false
+        - XDEBUG_IDE_KEY=PHPSTORM
+      volumes:
+        - /Users/truongphitam/Desktop/Rinnegan/Source/chualonghoa:/app:cached
+      ports:
+        - "9000:80"
+      networks:
+        - wordpress
+networks:
+  wordpress:        
+volumes:
+  app_data: {}
+  working-vol:

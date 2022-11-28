@@ -1,0 +1,70 @@
+body, h1, h2, h3, h4{
+    font-family: Arial !important;
+}
+
+p, a, td{
+    font-family: Arial !important;
+}
+
+.relatives{
+    position: relative;
+    width: 100%;
+}
+
+.tab-on-right{
+    position: absolute;
+    right: 0px;
+    top: -27px;
+}
+
+.tab-on-right li {
+    margin-left: 5px;
+}
+.tab-on-right a {
+    font-size: 15px;
+    background: #F2B263;
+    color: #ffff;
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+.tab-on-right .nav-tabs{
+    border-bottom: unset;
+}
+
+.line-100{
+    width: 100%;
+    border-bottom: 1px solid #F2B263;
+    text-transform: uppercase;
+}
+.header__logo{
+    padding: unset;
+}
+
+.logo-new{
+    width: 70px;
+}
+
+.navigation-menu > ul > li > a{
+    font-size: 16px;
+}
+
+.pb_120{
+    padding-bottom: 120px;
+}
+
+.mobile-menu-overlay__header{
+    padding: 3px 0px;
+}
+
+
+
+@media (max-width: 768px) {
+    .tab-on-right{
+        display: none;
+    }
+}
+
+.about-video-bg {
+    background: url(../images/hero/christian-hero-bg-01.png);
+}
