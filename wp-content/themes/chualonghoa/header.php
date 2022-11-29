@@ -28,32 +28,57 @@ global $maxthemes;
                             <div class="header__navigation menu-style-three d-none d-lg-block">
                                 <nav class="navigation-menu">
                                     <ul>
-                                        <li class="has-children active">
-                                            <a href="/"><span>Trang chủ</span></a>
-                                        </li>
                                         <li class="has-children has-children--multilevel-submenu">
-                                            <a href="about.php"><span>Giới thiệu</span></a>
+                                            <a href="about.php"><span>Thông tin</span></a>
                                             <ul class="submenu">
-                                                <li><a href="#"><span>Tiểu sử sư tổ</span></a></li>
-                                                <li><a href="#"><span>Về chùa</span></a></li>
+                                                <li><a href="#"><span>Lịch sử chùa Long Hoa</span></a></li>
+                                                <li><a href="#"><span>Thông báo Phật sự</span></a></li>
                                             </ul>
                                         </li>
                                         <li class="has-children has-children--multilevel-submenu">
-                                            <a href="#"><span>Tin tức</span></a>
+                                            <a href="about.php"><span>Khóa tu</span></a>
                                             <ul class="submenu">
-                                                <li><a href="news.php"><span>Phật Sự</span></a></li>
-                                                <li><a href="news.php"><span>Phật Giáo & Đời Sống</span></a></li>
-                                                <li><a href="news.php"><span>Phật giáo & Xã Hội</span></a></li>
-                                                <li><a href="news.php"><span>Phật giáo & Tuổi trẻ</span></a></li>
-                                                <li><a href="news.php"><span>Văn Học Phật Giáo</span></a></li>
-                                                <li><a href="#"><span>Pháp môn niệm Phật</span></a></li>
+                                                <li><a href="#"><span>Khóa tu "tịnh tâm"</span></a></li>
+                                                <li><a href="#"><span>Khóa tu "tuổi trẻ học phật"</span></a></li>
                                             </ul>
                                         </li>
                                         <li class="has-children has-children--multilevel-submenu">
-                                            <a href="#"><span>Thư viện</span></a>
+                                            <a href="about.php"><span>Thư viện</span></a>
                                             <ul class="submenu">
-                                                <li><a href="gallery.php"><span>Hình ảnh</span></a></li>
-                                                <li><a href="#"><span>Video</span></a></li>
+                                                <li><a href="#"><span>Pháp âm</span></a></li>
+                                                <li><a href="#"><span>Thư viện kinh sách</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children has-children--multilevel-submenu">
+                                            <a href="about.php"><span>Nghi thức</span></a>
+                                            <ul class="submenu">
+                                                <li><a href="#"><span>Kinh tụng hàng ngày</span></a></li>
+                                                <li><a href="#"><span>Kinh cho phật tử tại gia</span></a></li>
+                                                <li><a href="#"><span>Nghi thức tụng niệm</span></a></li>
+                                                <li><a href="#"><span>Nghi thức cầu an</span></a></li>
+                                                <li><a href="#"><span>Nghi thức cầu siêu</span></a></li>
+                                                <li><a href="#"><span>Nghi thức quy y</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children has-children--multilevel-submenu">
+                                            <a href="about.php"><span>Kinh điển</span></a>
+                                            <ul class="submenu">
+                                                <li><a href="#"><span>Kinh Đại Thừa</span></a></li>
+                                                <li><a href="#"><span>Kinh Nguyên Thủy</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children has-children--multilevel-submenu">
+                                            <a href="about.php"><span>Từ thiện</span></a>
+                                            <ul class="submenu">
+                                                <li><a href="#"><span>Tặng quà người già neo đơn</span></a></li>
+                                                <li><a href="#"><span>Tặng điểm tâm chay</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children has-children--multilevel-submenu">
+                                            <a href="about.php"><span>Tin tức</span></a>
+                                            <ul class="submenu">
+                                                <li><a href="#"><span>Thông tin tôn giáo</span></a></li>
+                                                <li><a href="#"><span>Hoạt động Phật sự</span></a></li>
                                             </ul>
                                         </li>
                                     </ul>
